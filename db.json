@@ -48,19 +48,19 @@
   "diasEmCartaz": [
       {
           "id": 1,
-          "ultimoDia": "5/12"
+          "ultimoDia": 4
       },
       {
           "id": 2,
-          "nome": "4/12"
+          "ultimoDia": 3
       },
       {
           "id": 3,
-          "nome": "3/12"
+          "ultimoDia": 2
       },
       {
           "id": 4,
-          "nome": "2/12"
+          "ultimoDia": 1
       }
   ],
   "faixaEtaria": [
