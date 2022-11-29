@@ -1,137 +1,85 @@
 {
-  "livros": [
+  "filmes": [
       {
           "id": 1,
-          "título": "Psicose",
+          "título": "Pantera Negra: Wakanda para sempre",
           "sinopse": "",
-          "avaliação": 4.8,
-          "preço": 50,
-          "categoria_id": 1,
-          "autor": "Robert Bloch",
-          "pagNumb": "240 páginas",
-          "faixaEtaria_id": 3
-
-      },
-      {
-          "id": 2,
-          "título": "O jovem Sherlock Holmes: Gelo Negro",
-          "sinopse": "Quando o irmão de Sherlock é surpreendido com uma faca nas mãos, debruçado sobre um cadáver, todas as evidências indicam que se trata de um assassinato. Mas o garoto não acredita nisso, e sua natureza inquieta não o permitirá deixar de lado a oportunidade de investigar o caso a fundo — especialmente porque dessa vez não é apenas a solução de um mistério que está em jogo. Caso a verdade não venha à tona, Mycroft será condenado à forca.",
-          "avaliação": 4.5,
-          "preço": 30,
-          "categoria_id": 4,
-          "autor": "Andrew Lane",
-          "pagNumb": "215 páginas",
+          "ingresso":  20,
+          "diasEmCartaz_id": 1,
           "faixaEtaria_id": 2
 
       },
       {
-          "id": 3,
-          "título": "Percy Jackson e os olimpianos: O Ladrão de Raios",
-          "sinopse": "Marcados pelo destino, eles dificilmente passam da adolescência. Poucos conseguem descobrir sua identidade.O garoto-problema Percy Jackson é um deles. Tem experiências estranhas em que deuses e monstros mitológicos parecem saltar das páginas dos livros direto para a sua vida. Pior que isso: algumas dessas criaturas estão bastante irritadas. Um artefato precioso foi roubado do Monte Olimpo e Percy é o principal suspeito. Para restaurar a paz, ele e seus amigos – jovens heróis modernos – terão de fazer mais do que capturar o verdadeiro ladrão: precisam elucidar uma traição mais ameaçadora que fúria dos deuses.",
-          "avaliação": 4.8,
-          "preço": 50,
-          "categoria_id": 2,
-          "autor": "Rick Riordan",
-          "pagNumb": "400 páginas",
+          "id": 2,
+          "título": "Aterrorizante 2",
+          "sinopse": "",
+          "preço": 20,
+          "diasEmCartaz_id": 2,
           "faixaEtaria_id": 4
 
       },
       {
-          "id": 4,
-          "título": "It: A coisa",
-          "sinopse": "Durante as férias de 1958, em uma pacata cidadezinha chamada Derry, um grupo de sete amigos começa a ver coisas estranhas. Um conta que viu um palhaço, outro que viu uma múmia. Finalmente, acabam descobrindo que estavam todos vendo a mesma coisa: um ser sobrenatural e maligno que pode assumir várias formas. É assim que Bill, Beverly, Eddie, Ben, Richie, Mike e Stan enfrentam a Coisa pela primeira vez. Quase trinta anos depois, o grupo volta a se encontrar. Mike, o único que permaneceu em Derry, dá o sinal ― uma nova onda de terror tomou a pequena cidade. É preciso unir forças novamente. Só eles têm a chave do enigma. Só eles sabem o que se esconde nas entranhas de Derry. Só eles podem vencer a Coisa.",
-          "avaliação": 4.8,
-          "preço": 55,
-          "categoria_id": 1,
-          "autor": "Stephen King",
-          "pagNumb": "1104 páginas",
-          "faixaEtaria_id": 2
-
-      },
-      {
-          "id": 5,
-          "título": "O Maravilhoso Mágico de Oz",
-          "sinopse": "Munchkins, Quadlings e pessoas de porcelana são alguns dos moradores desse lugar incrível para onde a pequena Dorothy foi enviada por um ciclone com seu cãozinho Totó. Agora, ela precisa seguir pela estrada de tijolos amarelos até chegar à Cidade de Esmeraldas. Lá vive o poderoso Mágico de Oz, que pode ser capaz de ajudá-la a voltar para casa. E nessa jornada ela encontrará amigos, perigos e muitas aventuras.",
-          "avaliação": 4.8,
-          "preço": 17,
-          "categoria_id": 2,
-          "autor": "Lyman Frank Baum",
-          "pagNumb": "128 páginas",
+          "id": 3,
+          "título": "Minions 2: A origem de Gru",
+          "sinopse": "",
+          "preço": 20,
+          "diasEmCartaz_id": 4,
           "faixaEtaria_id": 1
 
       },
       {
-          "id": 6,
-          "título": "Arsène Lupin: O Ladrão de Casaca",
-          "sinopse": "A alta sociedade francesa diverte-se a bordo do transatlântico Provence, quando chega a notícia: Arsène Lupin, o ladrão impossível de se capturar, viaja disfarçado entre os passageiros. Eis a chance de o Inspetor Ganimard prender o homem capaz de realizar crimes perfeitos e fugas espetaculares.",
-          "avaliação": 4.6,
+          "id": 4,
+          "título": "Adão Negro",
+          "sinopse": "",
           "preço": 20,
-          "categoria_id": 4,
-          "autor": "Maurice Leblanc",
-          "pagNumb": "320 páginas",
+          "diasEmCartaz_id": 1,
+          "faixaEtaria_id": 3
+
+      },
+      {
+          "id": 5,
+          "título": "Avatar",
+          "sinopse": "",
+          "preço": 15,
+          "diasEmCartaz_id": 3,
           "faixaEtaria_id": 2
-
-      },
-      {
-          "id": 7,
-          "título": "Orgulho e preconceito",
-          "sinopse": "A história de Orgulho e Preconceito gira em torno das cinco irmãs Bennet, que viviam na área rural do interior da Inglaterra, no século XVIII. Aborda a questão da sucessão em uma família sem homens, dentro de uma sociedade patriarcal, onde o casamento era fundamental para as mulheres. Assim, quando um homem rico e solteiro se muda para os arredores, a vida pacata da família entra em ebulição.",
-          "avaliação": 4.6,
-          "preço": 23,
-          "categoria_id": 3,
-          "autor": "Jane Austen",
-          "pagNumb": "288 páginas",
-          "faixaEtaria_id": 3
-
-      },
-      {
-          "id": 8,
-          "título": "Como Eu Era Antes de Você",
-          "sinopse": "Aos 26 anos, Louisa Clark não tem muitas ambições. Ela mora com os pais, a irmã mãe solteira, o sobrinho pequeno e um avô que precisa de cuidados constantes desde que sofreu um derrame. Trabalha como garçonete num café, um emprego que não paga muito, mas ajuda nas despesas, e namora Patrick, um triatleta que não parece interessado nela. Não que ela se importe.",
-          "avaliação": 4.8,
-          "preço": 38,
-          "categoria_id": 3,
-          "autor": "Jojo Moyes",
-          "pagNumb": "320 páginas",
-          "faixaEtaria_id": 3
-
       }
   ],
-  "categorias": [
+  "diasEmCartaz": [
       {
           "id": 1,
-          "nome": "terror"
+          "ultimoDia": "5/12"
       },
       {
           "id": 2,
-          "nome": "fantasia"
+          "nome": "4/12"
       },
       {
           "id": 3,
-          "nome": "romance"
+          "nome": "3/12"
       },
       {
-          "id": 3,
-          "nome": "mistério"
+          "id": 4,
+          "nome": "2/12"
       }
   ],
   "faixaEtaria": [
     {
           "id": 1,
-          "nome": "infantil"
+          "nome": "Livre"
   },
     {
         "id": 2,
-        "nome": "juvenil"
+        "nome": "12"
   },
     {
         "id": 3,   
-        "nome": "adulto"
+        "nome": "14"
   },
 
     {
         "id": 4,   
-        "nome": "para todos"
+        "nome": "18"
   }
 ]
 }
