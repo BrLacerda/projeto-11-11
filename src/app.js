@@ -1,24 +1,13 @@
-const express = require('express');
-const mongoose = require('mongoose');
-const app = express();
+const jsonServer = require('json-server')
+const server = jsonServer.create()
+const router = jsonServer.router('db.json')
+const middlewares = jsonServer.defaults()
 
-app.use({
-    extended: true
+server.use(middlewares)
+server.use(router)
+
+const port = process.env.PORT || 3000;
+
+server.listen(port, () => {
+  console.log(`JSON Server is running on: ${port}`)
 })
-
-app.use(express.json())
-
-app.get('/', (req, res) => {
-
-    res.json( {message: "Olá seu bucefaloS"})
-})
-
-app.listen(3000)
-
-
-
-mongoose.connect('mongodb+srv://BrLacerda:KSNKKSNK@apirestmovie.5ry2gej.mongodb.net/?retryWrites=true&w=majority')
-    .then(() => {
-        console.log('conectados!!')
-    })
-    .catch((err) => { console.log(err) })

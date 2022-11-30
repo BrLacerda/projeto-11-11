@@ -3,7 +3,9 @@
       {
           "id": 1,
           "título": "Pantera Negra: Wakanda para sempre",
-          "sinopse": "",
+          "sinopse": "Rainha Ramonda, Shuri, M'Baku, Okoye e Dora Milaje lutam para proteger sua nação das potências mundiais intervenientes após a morte do rei T'Challa.",
+          "audio": "DUB",
+          "resolucao": "3D",
           "ingresso":  20,
           "diasEmCartaz_id": 1,
           "faixaEtaria_id": 2
@@ -12,7 +14,9 @@
       {
           "id": 2,
           "título": "Aterrorizante 2",
-          "sinopse": "",
+          "sinopse": "Depois de ser ressuscitado por uma entidade maligna, o palhaço Art está de volta ao condado de Miles. Agora, ele tenta caçar uma adolescente e seu irmão mais novo durante o Halloween.",
+          "audio": "LEG",
+          "resolucao": "HD",
           "preço": 20,
           "diasEmCartaz_id": 2,
           "faixaEtaria_id": 4
@@ -21,7 +25,9 @@
       {
           "id": 3,
           "título": "Minions 2: A origem de Gru",
-          "sinopse": "",
+          "sinopse": "Nos anos 1970, o jovem Gru tenta entrar para um time de supervilões, mas a entrevista é desastrosa e ele e seus minions acabam fugindo do grupo de mal-feitores.",
+          "audio": "LEG",
+          "resolucao": "HD",
           "preço": 20,
           "diasEmCartaz_id": 4,
           "faixaEtaria_id": 1
@@ -30,7 +36,9 @@
       {
           "id": 4,
           "título": "Adão Negro",
-          "sinopse": "",
+          "sinopse": "O poderoso Adão Negro é libertado de sua tumba para lançar sua justiça cruel sobre a Terra.",
+          "audio": "DUB",
+          "resolucao": "HD",
           "preço": 20,
           "diasEmCartaz_id": 1,
           "faixaEtaria_id": 3
@@ -39,7 +47,9 @@
       {
           "id": 5,
           "título": "Avatar",
-          "sinopse": "",
+          "sinopse": "No exuberante mundo alienígena de Pandora vivem os Na'vi, seres que parecem ser primitivos, mas são altamente evoluídos. Como o ambiente do planeta é tóxico, foram criados os avatares, corpos biológicos controlados pela mente humana que se movimentam livremente em Pandora. Jake Sully, um ex-fuzileiro naval paralítico, volta a andar através de um avatar e se apaixona por uma Na'vi. Esta paixão leva Jake a lutar pela sobrevivência de Pandora.",
+          "audio": "DUB",
+          "resolucao": "3D",
           "preço": 15,
           "diasEmCartaz_id": 3,
           "faixaEtaria_id": 2
