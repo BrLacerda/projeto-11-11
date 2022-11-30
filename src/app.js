@@ -1,13 +1,24 @@
-fetch("http://localhost:3000/livros")
-.then(req => req.json())
-.then(data => showAll(data));
+const express = require('express');
+const mongoose = require('mongoose');
+const app = express();
 
-function showAll(livros) {
-    const htmlLivros = livros.map(
-        (livros) => `
-        <h2>${livros.título}</h2>
-        <h5>${livros.sinopse}</h6>
-        `
-    )
-};
-document.getElementById("app").innerHTML = htmlLivros;
+app.use({
+    extended: true
+})
+
+app.use(express.json())
+
+app.get('/', (req, res) => {
+
+    res.json( {message: "Olá seu bucefaloS"})
+})
+
+app.listen(3000)
+
+
+
+mongoose.connect('mongodb+srv://BrLacerda:KSNKKSNK@apirestmovie.5ry2gej.mongodb.net/?retryWrites=true&w=majority')
+    .then(() => {
+        console.log('conectados!!')
+    })
+    .catch((err) => { console.log(err) })
